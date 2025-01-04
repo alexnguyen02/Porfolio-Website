@@ -1,0 +1,31 @@
+.navbar {
+  background-color: #1A4D2E;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 15px;
+  width: 120px;
+  height: 100vh;
+  display: flex;
+}
+
+ul { 
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  align-self: center;
+  text-align: center;
+}
+
+li {
+  padding: 10px 0; 
+}
+
+a {
+  text-decoration: none;
+  color: #F5EFE6;
+  font-size: 18px; 
+}
+
+a:hover {
+  color: white; 
+}
