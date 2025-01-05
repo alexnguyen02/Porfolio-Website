@@ -1,0 +1,33 @@
+.home {
+  background-color: var(--cream);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  margin: 0;
+  font-size: 6rem; 
+}
+
+p {
+  padding: 0 10em;
+  font-size: 1.2rem; 
+}
+
+button {
+  padding: 1em; 
+  border-radius: 30px;
+  background-color: #E8DFCA;
+  color: #4F6F52;
+  border: 2px solid #4F6F52; 
+  font-size: 1rem; 
+}
+
+button:hover {
+  background-color: #4F6F52;
+  color: #E8DFCA;
+}
+

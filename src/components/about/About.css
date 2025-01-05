@@ -1,0 +1,54 @@
+.about {
+  background-color: #4F6F52;
+  color: var(--light-cream); 
+  padding: 5rem 10rem; 
+}
+
+img {
+  width: 50%; 
+  border-radius: 20px;
+}
+
+.description {
+  display: flex;
+}
+
+.description p {
+  margin: 0; 
+  padding: 0 0 1rem 2rem; 
+}
+
+h2 {
+  font-size: 3rem;
+  margin: 0 0 2rem 0; 
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h3 {
+  color: var(--light-cream); 
+  margin: 0 0 1rem 0;
+}
+
+.skills {
+  border: 2px solid var(--light-cream);
+  border-radius: 20px;
+  padding: 1rem; 
+  margin: 2rem 0 0 0; 
+  max-width: cal(50% - 2rem);
+}
+
+.tech-stack {
+  mask-image: linear-gradient(
+    to right, 
+    #0000, 
+    var(--light-green) 20%, 
+    var(--light-green) 80%, 
+    #0000);
+  transition: all 2s ease;
+}
+

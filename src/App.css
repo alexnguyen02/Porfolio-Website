@@ -1,1 +1,10 @@
+:root {
+  --dark-green: #1A4D2E; 
+  --light-green: #4F6F52;
+  --cream: #E8DFCA; 
+  --light-cream: #F5EFE6; 
+}
 
+.app {
+  display: flex;
+}

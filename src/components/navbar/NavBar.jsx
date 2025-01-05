@@ -4,9 +4,11 @@ const NavBar = () => {
   return (
     <div className='navbar'>
       <ul>
-        <li>
-          <a href="">Home</a>
-        </li>
+        <a href="">
+          <li>
+            Home
+          </li>
+        </a>
         <a href="">
           <li>About</li>
         </a>
