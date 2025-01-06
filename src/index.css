@@ -4,5 +4,13 @@ html {
 
 body {
   margin: 0; 
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+/* Hide the vertical scrollbar */
+body::-webkit-scrollbar {
+  width: 0; /* Removes the scrollbar width */
+  background: transparent; /* Optional: makes the scrollbar background transparent */
 }
 

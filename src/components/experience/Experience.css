@@ -1,0 +1,15 @@
+.experience {
+  background-color: var(--cream);
+  padding: 5rem 10rem;
+}
+
+.experience h2 {
+  font-size: 3rem;
+  margin: 0 0 2rem 0; 
+}
+
+.experience-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem; 
+}
