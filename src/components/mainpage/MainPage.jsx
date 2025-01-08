@@ -2,6 +2,7 @@ import './MainPage.css';
 import Home from '../home/Home';
 import About from '../about/About';
 import Experience from '../experience/Experience';
+import Projects from '../projects/Projects'; 
 
 const MainPage = () => {
   return (
@@ -9,6 +10,7 @@ const MainPage = () => {
       <Home />
       <About />
       <Experience />
+      <Projects />
     </div>
   ); 
 }

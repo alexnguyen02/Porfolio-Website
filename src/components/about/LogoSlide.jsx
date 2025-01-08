@@ -8,6 +8,7 @@ import reactLogo from "../../assets/logos/react-native.svg";
 import svelteLogo from "../../assets/logos/svelte.svg";
 import firebaseLogo from "../../assets/logos/firebase.svg";
 import flutterLogo from "../../assets/logos/flutter.svg";
+import githubLogo from "../../assets/logos/github.svg"; 
 
 const LogoSlide = () => {
   return (
@@ -21,6 +22,7 @@ const LogoSlide = () => {
       <img src={svelteLogo} alt="Svelte logo" />
       <img src={firebaseLogo} alt="Google Firestore logo" />
       <img src={flutterLogo} alt="Flutter logo" />
+      <img src={githubLogo} alt="Github logo" />
       <img src={pythonLogo} alt="Python logo" />
       <img src={javaLogo} alt="Java logo" />
       <img src={htmlLogo} alt="HTML 5 logo" />
@@ -30,6 +32,7 @@ const LogoSlide = () => {
       <img src={svelteLogo} alt="Svelte logo" />
       <img src={firebaseLogo} alt="Google Firestore logo" />
       <img src={flutterLogo} alt="Flutter logo" />
+      <img src={githubLogo} alt="Github logo" />
     </div>
   );
 };

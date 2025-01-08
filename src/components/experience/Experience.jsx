@@ -3,8 +3,6 @@ import ExperienceCard from './ExperienceCard';
 import data from '../../experience_data'; 
 
 // TODO: Make sure each row only stores 3 cards, and any additional cards are placed in a new 
-// TODO: Make sure each card has a unique key
-
 
 const Experience = () => {
   return (

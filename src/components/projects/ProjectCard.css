@@ -1,0 +1,33 @@
+.project-card {
+  background-color: var(--cream);
+  border: 3px solid black; 
+  border-radius: 30px;
+  color: black;
+  padding: 2rem; 
+  max-width: 25%;
+  display: flex; 
+  flex-direction: column;
+}
+
+.project-card:hover {
+  box-shadow: 8px 8px #AB886D;
+  cursor: pointer;
+  transition: 1s ease;
+}
+
+.project-card p {
+  margin: 0 0 1rem 0; 
+  padding: 0; 
+}
+
+.project-card h3 {
+  color: black; 
+  margin: 0 0 1rem 0; 
+  padding: 0; 
+}
+
+.icon {
+  font-size: 1.5rem;
+  align-self: flex-end;
+}
+

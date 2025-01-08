@@ -1,0 +1,16 @@
+.projects {
+  background-color: var(--light-green); 
+  color: var(--light-cream); 
+  margin: 0; 
+  padding: 5rem 10rem; 
+}
+
+.projects h2 {
+  font-size: 3rem; 
+  margin: 0 0 2rem 0; 
+}
+
+.project-cards {
+  display: flex;
+  gap: 2rem; 
+}
