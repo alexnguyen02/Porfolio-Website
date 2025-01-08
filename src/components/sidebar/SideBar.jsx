@@ -1,8 +1,8 @@
-import './NavBar.css'; 
+import './SideBar.css'; 
 
-const NavBar = () => {
+const SideBar = () => {
   return (
-    <div className='navbar'>
+    <div className='sidebar'>
       <ul>
         <a href="">
           <li>
@@ -26,4 +26,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default SideBar;

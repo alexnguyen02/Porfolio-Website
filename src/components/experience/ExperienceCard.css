@@ -1,11 +1,11 @@
 .experience-card {
-  border: 2px solid var(--dark-green);
+  border: 3px solid var(--dark-green);
   width: 35%;
   padding: 1rem; 
 }
 
 .experience-card h3 {
-  color: var(--dark-green);
+  color: black;
   margin: 0.5rem 0 1rem 0; 
   padding: 0; 
 }
