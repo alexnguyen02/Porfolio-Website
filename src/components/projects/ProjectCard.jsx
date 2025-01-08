@@ -1,6 +1,6 @@
 import "./ProjectCard.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
-import { faArrowRight, faAngleRight } from '@fortawesome/free-solid-svg-icons'
+import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
 
 const ProjectCard = () => {
   return (
@@ -11,7 +11,7 @@ const ProjectCard = () => {
         blanditiis, asperiores dolorem atque aut iure. Nihil deserunt voluptate
         numquam.
       </p>
-      <FontAwesomeIcon icon={faArrowRight} className="icon"/>
+      <FontAwesomeIcon icon={faAngleRight} className="icon"/>
     </div>
   );
 };

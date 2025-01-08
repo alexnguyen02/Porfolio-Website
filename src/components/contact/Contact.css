@@ -1,0 +1,49 @@
+.contact {
+  background-color: var(--cream);
+  padding: 3rem 10rem; 
+}
+
+.contact h2 {
+  font-size: 3rem;
+  color: black; 
+  margin: 0 0 2rem 0; 
+}
+
+.contact-content {
+  display: flex;
+}
+
+.call-to-action {
+  max-width: 50%; 
+}
+
+.call-to-action h3 {
+  font-size: 1.5rem;
+  color: var(--dark-green); 
+  margin: 0 0 0.5rem 0; 
+  padding: 0; 
+}
+
+.call-to-action p {
+  margin: 0 0 1.5rem 0; 
+  padding: 0; 
+  max-width: 75%;
+}
+
+.social-links {
+  display: flex; 
+  gap: 1rem; 
+}
+
+.linkedin, .github {
+  font-size: 1.5rem; 
+}
+
+.linkedin:hover, .github:hover {
+  color: var(--dark-green);
+  transform: scale(1.2);
+  transition: 0.5s ease-in-out;
+}
+
+
+

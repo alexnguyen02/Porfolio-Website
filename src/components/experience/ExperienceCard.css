@@ -2,6 +2,7 @@
   border: 3px solid var(--dark-green);
   width: 35%;
   padding: 1rem; 
+  border-radius: 20px;
 }
 
 .experience-card h3 {
@@ -29,6 +30,6 @@
 }
 
 .experience-card img {
-  width: 100%; 
+  width: 100%;
 }
 
