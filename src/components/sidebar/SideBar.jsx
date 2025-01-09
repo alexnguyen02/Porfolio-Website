@@ -1,27 +1,26 @@
 import './SideBar.css'; 
+import { useState } from 'react'; 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
+import { faXmark, faBars } from '@fortawesome/free-solid-svg-icons'
 
 const SideBar = () => {
+  const [isOpen, setIsOpen] = useState(false); 
+
+  const toggleMenu = () => {
+    setIsOpen((prevState) => !prevState); 
+  }
+
   return (
     <div className='sidebar'>
-      <ul>
-        <a href="">
-          <li>
-            Home
-          </li>
-        </a>
-        <a href="">
-          <li>About</li>
-        </a>
-        <a href="">
-          <li>Experience</li>
-        </a>
-        <a href="">
-          <li>Projects</li>
-        </a>
-        <a href="">
-          <li>Contact</li>
-        </a>
-      </ul>
+      <button className='menu-button' onClick={toggleMenu}>
+        {isOpen
+          ? <FontAwesomeIcon icon={faXmark} className='menu-icon'/>
+          : <FontAwesomeIcon icon={faBars} className='menu-icon'/>
+        }
+      </button>
+
+      
+
     </div>
   );
 };

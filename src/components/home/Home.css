@@ -17,7 +17,7 @@ p {
   font-size: 1.2rem; 
 }
 
-button {
+.home button {
   padding: 1em; 
   border-radius: 30px;
   background-color: #E8DFCA;
@@ -26,7 +26,7 @@ button {
   font-size: 1rem; 
 }
 
-button:hover {
+.home button:hover {
   background-color: #4F6F52;
   color: #E8DFCA;
 }

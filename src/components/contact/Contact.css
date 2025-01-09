@@ -1,6 +1,6 @@
 .contact {
   background-color: var(--cream);
-  padding: 3rem 10rem; 
+  padding: 2.5rem 10rem; 
 }
 
 .contact h2 {
@@ -37,6 +37,7 @@
 
 .linkedin, .github {
   font-size: 1.5rem; 
+  color: black;
 }
 
 .linkedin:hover, .github:hover {

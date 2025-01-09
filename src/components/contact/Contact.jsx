@@ -11,12 +11,16 @@ const Contact = () => {
         <div className="call-to-action">
           <h3>Let's connect!</h3>
           <p>
-            Feel free to reach out if you're interested in my work, or want to
-            give feedback on this porfolio website.
+            Feel free to reach out if you're interested in my work, or would like to
+            chat about building software products.
           </p>
           <div className="social-links">
-            <FontAwesomeIcon icon={faLinkedin} className="linkedin" />
-            <FontAwesomeIcon icon={faGithub} className="github" />
+            <a href="https://github.com/alexnguyen02" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faLinkedin} className="linkedin" />
+            </a>
+            <a href="https://www.linkedin.com/in/trang-alex-nguyen/" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faGithub} className="github" />
+            </a>
           </div>
         </div>
         <ContactForm />
