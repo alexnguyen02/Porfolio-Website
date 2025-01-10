@@ -25,10 +25,16 @@
   padding: 0.5rem; 
   width: 20%;
   border: none; 
+  border-radius: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .form-button:hover {
   background-color: var(--cream);
   color: var(--dark-green); 
   border: 2px solid #4F6F52;
+}
+
+.contact-form label {
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }

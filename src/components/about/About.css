@@ -17,6 +17,8 @@ img {
 .description p {
   margin: 0; 
   padding: 0 0 1rem 2rem; 
+  font-size: 1.2rem;
+  line-height: 1.8; 
 }
 
 .about h2 {
@@ -52,5 +54,10 @@ h3 {
     var(--light-green) 80%, 
     #0000);
   transition: all 2s ease;
+}
+
+.highlight {
+  background-color: var(--dark-green);
+  padding: 2px; 
 }
 

@@ -15,17 +15,21 @@ const About = () => {
         <div className="text">
           <p>
             {" "}
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum sit
-            architecto similique vero corporis voluptates aspernatur vel
-            molestiae culpa. Quaerat earum repudiandae quidem, mollitia eos ab
-            rem. Voluptate, eum assumenda.
+            I am a{" "}
+            <strong>
+              <span className="highlight"> keen problem-solver </span>
+            </strong>{" "}
+            who strives to make a meaningful impact through my work by
+            leveraging my diverse skill set. Being <strong><span className="highlight">passionate</span></strong> about learning, I actively seek new opportunities
+            that allow me to acquire valuable skills and experiences.
           </p>
           <p>
             {" "}
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum sit
-            architecto similique vero corporis voluptates aspernatur vel
-            molestiae culpa. Quaerat earum repudiandae quidem, mollitia eos ab
-            rem. Voluptate, eum assumenda.
+            Currently, I am pursuing a Bachelor of Science in{" "}
+            <strong>
+              <span className="highlight"> Computer Science </span>
+            </strong>
+            at Toronto Metropolitan University.
           </p>
         </div>
       </div>

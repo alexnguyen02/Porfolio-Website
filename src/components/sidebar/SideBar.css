@@ -7,9 +7,11 @@
   left: 0; 
   padding: 0; 
   display: flex;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .sidebar.open {
+  z-index: 100;
   width: 100%;
 }
 

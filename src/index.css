@@ -6,6 +6,7 @@ body {
   margin: 0; 
   overflow-x: hidden;
   overflow-y: scroll;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* Hide the vertical scrollbar */

@@ -7,14 +7,16 @@
   min-height: 100vh;
 }
 
-h1 {
+.home h1 {
   margin: 0;
   font-size: 6rem; 
 }
 
-p {
-  padding: 0 10em;
+.home p {
+  max-width: 70%;
   font-size: 1.2rem; 
+  text-align: center;
+  padding: 0 0 1rem 0;
 }
 
 .home button {
@@ -24,6 +26,7 @@ p {
   color: #4F6F52;
   border: 2px solid #4F6F52; 
   font-size: 1rem; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .home button:hover {
