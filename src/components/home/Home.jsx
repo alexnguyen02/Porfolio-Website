@@ -5,7 +5,7 @@ const Home = () => {
     <div className="home">
       <h1>Alex Nguyen</h1>
       <p>
-        I solve problems and build software by actively <strong>learning</strong> and <strong>upgrading</strong> my skills 
+        I solve problems and build software.  
       </p>
       <button>Download Resume</button>
     </div>

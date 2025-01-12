@@ -6,6 +6,12 @@
   border-radius: 20px;
 }
 
+.experience-card:hover {
+  box-shadow: 12px 12px 8px rgba(0, 0, 0, .5);
+  transition: 1s ease;
+  cursor: pointer;
+}
+
 .experience-card h3 {
   color: black;
   margin: 0.5rem 0 1rem 0; 
@@ -28,6 +34,7 @@
   font-size: 1rem;
   margin: 0; 
   padding: 0; 
+  line-height: 1.4;
 }
 
 .experience-card img {

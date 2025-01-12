@@ -30,7 +30,7 @@ const SideBar = () => {
       </div>
       <div className={`sidebar-menu ${isOpen ? 'open' : 'closed'}`}>
           <a className='home-item'>Home</a>
-          <a>About</a>
+          <a href=''>About</a>
           <a>Experience</a>
           <a>Projects</a>
         <a className='contact-item'>Contact</a>

@@ -32,5 +32,6 @@
 .home button:hover {
   background-color: #4F6F52;
   color: #E8DFCA;
+  cursor: pointer;
 }
 
