@@ -3,7 +3,7 @@ import ProjectCard from './ProjectCard';
 
 const Projects = () => {
   return (
-    <div className='projects'>
+    <div className='projects' id='projects'>
       <h2>Projects</h2>
       <div className='project-cards'>
         <ProjectCard />

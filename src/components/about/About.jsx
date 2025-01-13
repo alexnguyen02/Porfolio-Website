@@ -4,7 +4,7 @@ import LogoSlide from "./LogoSlide";
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <h2>About</h2>
       <div className="description">
         <img

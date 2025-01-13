@@ -1,40 +1,92 @@
-import './SideBar.css'; 
-import { useState, useEffect } from 'react'; 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
-import { faXmark, faBars } from '@fortawesome/free-solid-svg-icons'; 
+import "./SideBar.css";
+import React, { useState, useEffect, useRef } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faXmark, faBars } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-scroll";
 
 const SideBar = () => {
-  const [isOpen, setIsOpen] = useState(false); 
+  const [isOpen, setIsOpen] = useState(false);
+  const checkboxRef = useRef(false);
 
   const toggleMenu = () => {
-    setIsOpen((prevState) => !prevState); 
-  }
+    setIsOpen((prevState) => !prevState);
+  };
 
   useEffect(() => {
     if (isOpen) {
-      document.body.classList.add('no-scroll');
+      document.body.classList.add("no-scroll");
     } else {
-      document.body.classList.remove('no-scroll');
+      document.body.classList.remove("no-scroll");
+      if (checkboxRef.current) {
+        checkboxRef.current.checked = false;
+      }
     }
   }, [isOpen]);
 
   return (
-    <div className={`sidebar ${isOpen ? 'open' : 'closed'}`}>
-      <div className='button-container'>
-        <button className='menu-button' onClick={toggleMenu}>
-          {isOpen
-            ? <FontAwesomeIcon icon={faXmark} className='menu-icon'/>
-            : <FontAwesomeIcon icon={faBars} className='menu-icon'/>
-          }
-        </button>
+    <div className={`sidebar ${isOpen ? "open" : ""}`}>
+      <div className="sidebar-left">
+        <label className="sidebar-button">
+          <input type="checkbox" onChange={toggleMenu} ref={checkboxRef} />
+        </label>
       </div>
-      <div className={`sidebar-menu ${isOpen ? 'open' : 'closed'}`}>
-          <a className='home-item'>Home</a>
-          <a href=''>About</a>
-          <a>Experience</a>
-          <a>Projects</a>
-        <a className='contact-item'>Contact</a>
-      </div>
+      <aside className={`sidebar-menu ${isOpen ? "open" : ""}`}>
+        <Link
+          to="home"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+          className="link home-item"
+          onClick={() => setIsOpen(false)}
+        >
+          Home
+        </Link>
+        <Link
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+          className="link"
+          onClick={() => setIsOpen(false)}
+        >
+          About
+        </Link>
+        <Link
+          to="experience"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+          className="link"
+          onClick={() => setIsOpen(false)}
+        >
+          Experience
+        </Link>
+        <Link
+          to="projects"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+          className="link"
+          onClick={() => setIsOpen(false)}
+        >
+          Projects
+        </Link>
+        <Link
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+          className="link contact-item"
+          onClick={() => setIsOpen(false)}
+        >
+          Contact
+        </Link>
+      </aside>
     </div>
   );
 };

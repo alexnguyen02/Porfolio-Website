@@ -6,7 +6,7 @@ import data from '../../experience_data';
 
 const Experience = () => {
   return (
-    <div className='experience'>
+    <div className='experience' id='experience'>
       <h2>Experience</h2>
       <div className='experience-cards'>
         {data.map((e) => {

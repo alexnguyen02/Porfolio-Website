@@ -3,6 +3,15 @@
   --light-green: #4F6F52;
   --cream: #E8DFCA; 
   --light-cream: #F5EFE6;
+  --bar-width: 30px; 
+  --bar-height: 4px; 
+  --hamburger-gap: 3px;
+  --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
+  --hamburger-margin: 1.8rem; 
+  --animation-timing: 500ms ease-in-out; 
 }
 
+.app {
+  display: flex;
+}
 
