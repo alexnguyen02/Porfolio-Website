@@ -1,5 +1,5 @@
 .experience-card {
-  background-color: var(--light-cream) ;
+  background-color: var(--light-cream); 
   border: 3px solid var(--dark-green);
   width: 35%;
   padding: 1rem; 
@@ -39,5 +39,10 @@
 
 .experience-card img {
   width: 100%;
+}
+
+.experience-card a {
+  text-decoration: none;
+  color: black;
 }
 
