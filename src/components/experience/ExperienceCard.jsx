@@ -4,13 +4,15 @@ import imgService from "../../utils/image";
 const ExperienceCard = ({ data }) => {
   return (
     <div className="experience-card">
-      <a href={`${data.companyWebsite}`} target="_blank" rel="noopener noreferrer">
-        <a href={`${data.companyWebsite}`} target="_blank" rel="noopener noreferrer">
-          <img
-            src={imgService.getImageURL(data.imageURL)}
-            alt={`${data.company} logo`}
-          />
-        </a>
+      <a
+        href={`${data.companyWebsite}`}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src={imgService.getImageURL(data.imageURL)}
+          alt={`${data.company} logo`}
+        />
         <h3>{data.position}</h3>
         <h4>{data.company}</h4>
         <h5>

@@ -43,7 +43,7 @@ const projectsData = [
         structure aligned with the <b>Clean Architecture</b> principles.
       </>
     ),
-    imageURL: "coubon.png",
+    imageURL: "trivia.png",
     techStack: "Java, APIs, Git",
     githubLink: "https://github.com/alexnguyen02/Totally-Trivia",
   },
@@ -59,7 +59,7 @@ const projectsData = [
         enhancing user interface and user experience.
       </>
     ),
-    imageURL: "coubon.png",
+    imageURL: "guide.png",
     techStack: "Python, Flask, APIs, Git",
     githubLink:
       "https://github.com/alexnguyen02/Post-Covid19-An-Interactive-Travel-Guide",
