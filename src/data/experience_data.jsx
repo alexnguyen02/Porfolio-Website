@@ -5,7 +5,6 @@ const experienceData = [
     company: "CouBon",
     startDate: "May 2023",
     endDate: "Oct 2024",
-    // TODO: Real data will be updated when the content is filled in.
     description: (
       <>
         Designed and developed an <b>AI chatbot</b> on mobile application using{" "}
@@ -16,7 +15,7 @@ const experienceData = [
       </>
     ),
     imageURL: "coubon.png",
-    companyWebsite: "https://coubon.ca/"
+    companyWebsite: "https://apps.apple.com/us/app/coubon/id6446301424"
   },
   {
     id: 2,
