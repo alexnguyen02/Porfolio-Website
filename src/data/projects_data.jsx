@@ -1,13 +1,13 @@
+// Project data containting descriptions & external links to Github source code. 
 const projectsData = [
   {
     id: 1,
     projectName: "Porfolio Website",
-    // TODO: Real data will be updated when the content is filled in.
     description: (
       <>
         Designed and developed a porfolio website using <b>React</b>,{" "}
         <b>JavaScript</b>, <b>HTML</b>, and <b>CSS</b>, demonstrating front-end
-        and project management skills, as well as self-discripline.
+        and project management skills.
       </>
     ),
     imageURL: "porfolio.png",
@@ -17,7 +17,6 @@ const projectsData = [
   {
     id: 2,
     projectName: "Comprehensive Obstacle Map",
-    // TODO: Real data will be updated when the content is filled in.
     description: (
       <>
         Collaborated in a team of four to develop a web application{" "}
@@ -34,7 +33,6 @@ const projectsData = [
   {
     id: 3,
     projectName: "Totally Trivia",
-    // TODO: Real data will be updated when the content is filled in.
     description: (
       <>
         Led a team of four to develop a trivia game application with <b>user
@@ -50,7 +48,6 @@ const projectsData = [
   {
     id: 4,
     projectName: "Post COVID-19: An Interactive Guide",
-    // TODO: Real data will be updated when the content is filled in.
     description: (
       <>
         Implemented a recommendation system using <b>Python</b> to generate top
