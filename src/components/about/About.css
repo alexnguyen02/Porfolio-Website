@@ -1,7 +1,8 @@
 .about {
-  background-color: #4F6F52;
-  color: var(--light-cream); 
-  padding: 5rem 10rem; 
+  background-color: #4f6f52;
+  color: var(--light-cream);
+  padding: 8vw;
+  padding: 5rem 8rem;
 }
 
 .description {
@@ -9,21 +10,36 @@
 }
 
 img {
-  width: 50%; 
+  max-width: 100%;
+  height: auto;
+  width: 40%;
   border-radius: 20px;
   flex-shrink: 1;
 }
 
+@media (max-width: 1023px) {
+  .about {
+    padding: 5rem 2rem;
+  }
+
+  img {
+    width: 30%;
+    height: auto;
+  }
+}
+
 .description p {
-  margin: 0; 
-  padding: 0 0 1rem 2rem; 
-  font-size: 1.2rem;
-  line-height: 1.8; 
+  margin: 0;
+  padding: 0 0 1rem 2rem;
+  font-size: 1rem;
+  font-size: clamp(1rem, 0.9514563106796117rem + 0.20711974110032358vw, 1.2rem);
+  line-height: 1.8;
 }
 
 .about h2 {
-  font-size: 3rem;
-  margin: 0 0 2rem 0; 
+  font-size: 2rem;
+  font-size: clamp(2rem, 1.647887323943662rem + 1.5023474178403755vw, 3rem);
+  margin: 0 0 2rem 0;
 }
 
 .text {
@@ -33,31 +49,32 @@ img {
 }
 
 h3 {
-  font-size: 1.5rem;
-  color: var(--light-cream); 
+  font-size: 1rem;
+  font-size: clamp(1rem, 0.8786407766990292rem + 0.517799352750809vw, 1.5rem);
+  color: var(--light-cream);
   margin: 0 0 1rem 0;
 }
 
 .skills {
   border: 2px solid var(--light-cream);
   border-radius: 20px;
-  padding: 1rem; 
-  margin: 2rem 0 0 0; 
+  padding: 1rem;
+  margin: 2rem 0 0 0;
   max-width: cal(50% - 2rem);
 }
 
 .tech-stack {
   mask-image: linear-gradient(
-    to right, 
-    #0000, 
-    var(--light-green) 20%, 
-    var(--light-green) 80%, 
-    #0000);
+    to right,
+    #0000,
+    var(--light-green) 20%,
+    var(--light-green) 80%,
+    #0000
+  );
   transition: all 2s ease;
 }
 
 .highlight {
   background-color: var(--dark-green);
-  padding: 2px; 
+  padding: 2px;
 }
-

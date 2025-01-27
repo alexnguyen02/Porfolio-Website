@@ -5,33 +5,35 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  margin-inline: auto;
 }
 
 .home h1 {
   margin: 0;
-  font-size: 6rem; 
+  font-size: 3rem;
+  font-size: clamp(3rem, 2.2718446601941746rem + 3.1067961165048543vw, 6rem);
 }
 
 .home p {
   max-width: 70%;
-  font-size: 1.2rem; 
+  font-size: 1rem;
+  font-size: clamp(1rem, 0.9514563106796117rem + 0.20711974110032358vw, 1.2rem);
   text-align: center;
   padding: 0 0 1rem 0;
 }
 
 .home button {
-  padding: 1em; 
+  padding: 1em;
   border-radius: 30px;
-  background-color: #E8DFCA;
-  color: #4F6F52;
-  border: 2px solid #4F6F52; 
-  font-size: 1rem; 
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #e8dfca;
+  color: #4f6f52;
+  border: 2px solid #4f6f52;
+  font-size: 1rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .home button:hover {
-  background-color: #4F6F52;
-  color: #E8DFCA;
+  background-color: #4f6f52;
+  color: #e8dfca;
   cursor: pointer;
 }
-

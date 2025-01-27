@@ -2,11 +2,18 @@
   background-color: var(--light-green); 
   color: var(--light-cream); 
   margin: 0; 
-  padding: 5rem 10rem; 
+  padding: 5rem 8rem; 
+}
+
+@media (max-width: 1023px) {
+  .projects {
+    padding: 5rem 2rem; 
+  }
 }
 
 .projects h2 {
-  font-size: 3rem; 
+  font-size: 2rem;
+  font-size: clamp(2rem, 1.647887323943662rem + 1.5023474178403755vw, 3rem);
   margin: 0 0 2rem 0; 
 }
 
@@ -14,6 +21,7 @@
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 1fr; 
   /* grid-auto-flow: column;
   grid-auto-columns: 30%; */
 }

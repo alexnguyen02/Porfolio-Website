@@ -21,8 +21,7 @@ const projectsData = [
       <>
         Collaborated in a team of four to develop a web application{" "}
         <b>within 24 hours</b> using <b>JavaScript</b>, <b>HTML</b>, <b>CSS</b>{" "}
-        and <b>Svelte</b> that helps pedestrians and people with accessibility
-        needs navigate Toronto safely. Implemented <b>user authentication</b> using <b>Auth0</b>, JavaScript and Svelte.  
+        and <b>Svelte</b>, helping pedestrians navigate Toronto safely. Implemented <b>user authentication</b> using <b>Auth0</b>.  
       </>
     ),
     imageURL: "newhacks.png",
@@ -52,8 +51,7 @@ const projectsData = [
       <>
         Implemented a recommendation system using <b>Python</b> to generate top
         safest layover countries based on the COVID-19 case report API.
-        Developed the <b>front-end </b> of the app using <b>Flask</b> library,
-        enhancing user interface and user experience.
+        Developed the <b>front-end </b> of the app using <b>Flask</b> library.
       </>
     ),
     imageURL: "guide.png",

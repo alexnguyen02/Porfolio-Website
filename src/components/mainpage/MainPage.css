@@ -1,4 +1,9 @@
 .main-page { 
   z-index: 1;
-  margin-left: calc(var(--hamburger-margin) * 2 + var(--bar-width)); 
+}
+
+@media (min-width: 1024px) {
+  .main-page {
+    margin-left: calc(var(--hamburger-margin) * 2 + var(--bar-width)); 
+  }
 }

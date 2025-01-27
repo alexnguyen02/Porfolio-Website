@@ -1,4 +1,5 @@
 .project-card {
+  min-height: 10%;
   position: relative;
   background-color: var(--cream);
   border: 3px solid black; 

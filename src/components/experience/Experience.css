@@ -1,15 +1,22 @@
 .experience {
   background-color: var(--cream);
-  padding: 5rem 10rem;
+  padding: 5rem 8rem;
+}
+
+@media (max-width: 1023px) {
+  .experience {
+    padding: 5rem 2rem;
+  }
 }
 
 .experience h2 {
-  font-size: 3rem;
-  margin: 0 0 2rem 0; 
+  font-size: 2rem;
+  font-size: clamp(2rem, 1.647887323943662rem + 1.5023474178403755vw, 3rem);
+  margin: 0 0 2rem 0;
 }
 
 .experience-cards {
   display: flex;
   justify-content: space-between;
-  gap: 2rem; 
+  gap: 2rem;
 }
