@@ -3,12 +3,6 @@
   padding: 2.5rem 8rem; 
 }
 
-@media (max-width: 1023px) {
-  .contact {
-    padding: 2.5rem 2rem; 
-  }
-}
-
 .contact h2 {
   font-size: 2rem;
   font-size: clamp(2rem, 1.647887323943662rem + 1.5023474178403755vw, 3rem);
@@ -52,6 +46,28 @@
   color: var(--dark-green);
   transform: scale(1.2);
   transition: 0.5s ease-in-out;
+}
+
+@media (max-width: 1023px) {
+  .contact {
+    padding: 2.5rem 2rem; 
+  }
+}
+
+@media (max-width: 767px){
+  .contact {
+    padding: 2.5rem 1.5rem; 
+  }
+
+  .contact-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; 
+  }
+
+  .call-to-action {
+    max-width: 100%;
+  }
 }
 
 

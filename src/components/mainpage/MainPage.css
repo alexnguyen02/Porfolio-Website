@@ -7,3 +7,9 @@
     margin-left: calc(var(--hamburger-margin) * 2 + var(--bar-width)); 
   }
 }
+
+@media (max-width: 1023px) {
+  .main-page {
+    margin-top: 4rem; 
+  }
+}
