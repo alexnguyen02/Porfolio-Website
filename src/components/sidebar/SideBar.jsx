@@ -46,7 +46,7 @@ const SideBar = () => {
           to="about"
           spy={true}
           smooth={true}
-          offset={50}
+          offset={0}
           duration={500}
           className="link"
           onClick={() => setIsOpen(false)}
