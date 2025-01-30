@@ -37,3 +37,9 @@
   color: #e8dfca;
   cursor: pointer;
 }
+
+@media (max-width: 1023px) {
+  .home button {
+    margin-bottom: 4rem;
+  }
+}

@@ -42,6 +42,7 @@
   background-color: transparent;
   border: none;
   align-self: flex-end;
+  color: black;
 }
 
 .project-button:hover {

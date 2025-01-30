@@ -165,5 +165,9 @@
   .sidebar-menu .link.home-item {
     border: none; 
   }
+
+  .sidebar-menu .link.contact-item {
+    margin-bottom: 4rem;
+  }
 }
 
