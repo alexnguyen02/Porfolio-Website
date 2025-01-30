@@ -60,7 +60,7 @@
 .popup .button {
   display: flex;
   justify-content: flex-end;
-  padding-right: 1rem;
+  padding-right: 5%;
 }
 
 .popup .close-button {
