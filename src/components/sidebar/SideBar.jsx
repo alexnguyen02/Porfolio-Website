@@ -1,7 +1,5 @@
 import "./SideBar.css";
 import React, { useState, useEffect, useRef } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faXmark, faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-scroll";
 
 const SideBar = () => {
