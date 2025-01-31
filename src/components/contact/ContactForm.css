@@ -47,3 +47,13 @@
     width: 90%;
   }
 }
+
+@media (max-width: 344px){
+  
+.form-button {
+  width: 35%;
+}
+}
+
+
+
