@@ -1,4 +1,4 @@
-# Porfolio Website 
+# Portfolio Website 
 
-This website is built using React, Vite, and Node.js. 
+This website is built using React, HTML, CSS, and JavaScript. 
  
