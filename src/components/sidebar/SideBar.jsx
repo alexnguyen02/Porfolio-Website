@@ -1,5 +1,5 @@
 import "./SideBar.css";
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Link } from "react-scroll";
 
 const SideBar = () => {
