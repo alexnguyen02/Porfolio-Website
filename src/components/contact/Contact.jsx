@@ -15,7 +15,7 @@ const Contact = () => {
             chat about building software products.
           </p>
           <div className="social-links">
-            <a href="https://www.linkedin.com/in/trang-alex-nguyen/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/alex-nguyen-le/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faLinkedin} className="linkedin" />
             </a>
             <a href="https://github.com/alexnguyen02" target="_blank" rel="noopener noreferrer">
